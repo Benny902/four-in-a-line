@@ -1,5 +1,5 @@
 # four-in-a-line
-four-in-a-line - a project game i made in C Language - during my first year bsc stuides (2020)
+four-in-a-line - a project game i made in C Language - during my first year bsc studies (2020)
 
 ![image](https://github.com/Benny902/four-in-a-line/assets/73943596/bc286d48-7b7e-4b74-9978-d9111ce7da9b)
 

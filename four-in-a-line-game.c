@@ -23,12 +23,13 @@ int DiagonaLineCheck(char *gameboard,int SIZE); // func to check 4 in a line in 
 
 int main() {
     int size = 0;
-	printf("\nHello, welcome to Four in a Line GAME \n Please Enter the board size you want: (must be 4 or higher)\n");
-	scanf("%d", &size);
-	if (size < 3) // loop (with main) untill size is bigger than 3
+	printf("\nHello, welcome to Four in a Line GAME \n");
+	while (size <= 3) // loop (with main) untill size is bigger than 3
 	{
-		printf("\nError, number must be 4 or higher!.  Try again\n");
-		main(); 
+        printf("Please Enter the board size you want: (must be 4 or higher)\n");
+        scanf("%d", &size);
+        if (size <= 3)
+		    printf("\nError, number must be 4 or higher!.  Try again\n");
 	}
 	//if size>3 : continues
 	const char *coin = "AB";
